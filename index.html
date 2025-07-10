@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/396dc8a075.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>KhashuriMall</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <header class="site-header">
+                <nav class="main-nav">
+                    <div class="container nav-wrapper">
+                        <a class="brand" href="index.html">KhashuriMall </a>
+                        <ul class="nav-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <div class="mobile-menu">
+                            <div class="hamburger" id="hamburger">
+                                <div class="bar first" id="first"></div>
+                                <div class="bar second" id="second"></div>
+                                <div class="bar third" id="third"></div>
+                            </div>
+                            <ul class="mobile-links" id="menu">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#products">Products</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <main>
+                <section id="home" class="hero">
+                    <div class="container text-center">
+                        <h1 class="headline">Welcome to Our Store</h1>
+                        <p class="subtext">
+                            Discover amazing products with vibrant colors and
+                            innovative designs
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn primary">Shop Now</button>
+                            <button class="btn outline">Learn More</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="products" class="products-section">
+                    <div class="container">
+                        <div class="section-header text-center">
+                            <h2>Featured Products</h2>
+                            <p>
+                                Explore our collection of handpicked products
+                                designed to brighten your day
+                            </p>
+                        </div>
+                        <div class="product-grid" id="product-container"></div>
+                    </div>
+                </section>
+
+                <section id="contact" class="contact-section">
+                    <div class="container text-center">
+                        <h2>Get In Touch</h2>
+                        <p>Have questions? We'd love to hear from you!</p>
+
+                        <div class="contact-info">
+                            <div class="info-card">
+                                <span class="material-symbols-outlined"
+                                    >email</span
+                                >
+                                <h3>Email</h3>
+                                <p>contact@KhashuriMall.com</p>
+                            </div>
+                            <div class="info-card">
+                                <span class="material-symbols-outlined"
+                                    >call</span
+                                >
+                                <h3>Phone</h3>
+                                <p>+995 (555) 123456789</p>
+                            </div>
+                            <div class="info-card">
+                                <span class="material-symbols-outlined"
+                                    >location_on</span
+                                >
+                                <h3>Address</h3>
+                                <p>24 Rustaveli St, Khashuri</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <form>
+                                <div class="form-row">
+                                    <input
+                                        type="text"
+                                        placeholder="Your Name"
+                                    />
+                                    <input
+                                        type="email"
+                                        placeholder="Your Email"
+                                    />
+                                </div>
+                                <textarea
+                                    placeholder="Your Message"
+                                    rows="5"
+                                ></textarea>
+                                <button type="submit" class="btn block">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <div class="container text-center">
+                    <span class="brand">KhashuriMall</span>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <p class="copyright">
+                        © 2025 KhashuriMall. All rights reserved.
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
